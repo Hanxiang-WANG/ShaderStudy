@@ -50,6 +50,14 @@ Shader "Unlit/InterpolationVisualizer"
                 // 3. 【见证奇迹】不要查贴图了！
                 // 直接把光栅化阶段插值好的颜色输出到屏幕！
                 return i.myColor;
+                
+                //进阶：z-buffer
+                // i.vertex.z 存储了该像素在裁剪空间下的深度值
+                // 取值范围根据平台不同可能不同，但在 PC 上通常是非线性映射的数值
+                // 我们直接把它当成灰度颜色输出（红绿蓝三个通道给一样的值就是灰度）
+                //fixed depth = i.vertex.z / i.vertex.w; // 除以 w 进行透视除法，归一化到 0-1 (近似)
+
+                //return fixed4(depth, depth, depth, 1.0);
             }
             ENDCG
         }

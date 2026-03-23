@@ -213,3 +213,95 @@ Start importing Assets/Shading/NormalMap_Mat.mat using Guid(1c75e972469239245aa6
  -> (artifact id: '2c0c262688284ae83e0970a8afe3698c') in 0.087699 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 413178.300421 seconds.
+  path: Assets/Shading/Materials
+  artifactKey: Guid(18ac4b4f24bd07c43a245f469ebda702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shading/Materials using Guid(18ac4b4f24bd07c43a245f469ebda702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd0c62150756f452049dcf46fad4641f') in 0.060956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 128.755081 seconds.
+  path: Assets/Shading/RampLighting.shader
+  artifactKey: Guid(98bb4e846ddc14540b984eb0000eb234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shading/RampLighting.shader using Guid(98bb4e846ddc14540b984eb0000eb234) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5459539390bc46028cfc8f4870564a77') in 0.035485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.413739 seconds.
+  path: Assets/Shading/RampGenerator.cs
+  artifactKey: Guid(8806a4bff2028c245b94bb5b30d4ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shading/RampGenerator.cs using Guid(8806a4bff2028c245b94bb5b30d4ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20eec5acd041994d4f6f60bf2e7700ca') in 0.001274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 13.539 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.398 seconds
+Domain Reload Profiling: 27937ms
+	BeginReloadAssembly (881ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (105ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (316ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (12550ms)
+		LoadAssemblies (12782ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (62ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (14400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3274 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (54.3 KB). Loaded Objects now: 3797.
+Memory consumption went from 126.4 MB to 126.4 MB.
+Total: 4.931400 ms (FindLiveObjects: 0.519600 ms CreateObjectMapping: 0.224600 ms MarkObjects: 4.008300 ms  DeleteObjects: 0.175900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/RampGenerator.cs: 9f49c9b794774261a68730c536a0c5f2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: a2bc4931b2ca9b1a64a5eb244335d6d6 -> 4fc2c9b67c7ceb95fb90157afc06da1d

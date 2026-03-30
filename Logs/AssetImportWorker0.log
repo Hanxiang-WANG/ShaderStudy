@@ -196,3 +196,59 @@ Start importing Assets/BurningDissolve/BurningMat.mat using Guid(b45e014700ecb80
  -> (artifact id: 'c6ad83a0a5a57711c7ada65d8a2acf45') in 0.145269 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 240706.723250 seconds.
+  path: Assets/CheckerBoard
+  artifactKey: Guid(06695bae369a8e243b314d70664b6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CheckerBoard using Guid(06695bae369a8e243b314d70664b6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd49b1c4ad0d0b9d209946931837bb6fd') in 0.055188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.144168 seconds.
+  path: Assets/CheckerBoard/CheckerBoard.unity
+  artifactKey: Guid(11146e5ef0f0a964888ecef9e725e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CheckerBoard/CheckerBoard.unity using Guid(11146e5ef0f0a964888ecef9e725e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ca2abef1ec177e84306836890ed53538') in 0.002542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.770035 seconds.
+  path: Assets/CheckerBoard/ProceduralCheckerboard.shader
+  artifactKey: Guid(46c29b2fe3583bd4488e4714909b15e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CheckerBoard/ProceduralCheckerboard.shader using Guid(46c29b2fe3583bd4488e4714909b15e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b752f68c7ea5c199d8f2dcca3c470e6f') in 0.082213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1892.053950 seconds.
+  path: Assets/CheckerBoard/ProceduralCheckerboard.shader
+  artifactKey: Guid(46c29b2fe3583bd4488e4714909b15e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CheckerBoard/ProceduralCheckerboard.shader using Guid(46c29b2fe3583bd4488e4714909b15e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c7b2ec54f2233f3e7ab5e47f90e69e3a') in 0.026828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 443.648564 seconds.
+  path: Assets/CheckerBoard/CheckerboardMat.mat
+  artifactKey: Guid(c3081dd0fe4cf8e4084b644abbc8feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CheckerBoard/CheckerboardMat.mat using Guid(c3081dd0fe4cf8e4084b644abbc8feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b57d2105121afec5295135dc99e8cc71') in 0.393240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 74.235954 seconds.
+  path: Assets/CheckerBoard/CheckerboardMat.mat
+  artifactKey: Guid(c3081dd0fe4cf8e4084b644abbc8feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CheckerBoard/CheckerboardMat.mat using Guid(c3081dd0fe4cf8e4084b644abbc8feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8d07b5ee3aebaab00a9edf9731dfb02') in 0.058481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
